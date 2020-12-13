@@ -1,0 +1,54 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.idcd-posts {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.idcd-posts-items {
+    flex: 0 50%;
+    padding: 40px;
+}
+
+.idcd-posts-items-container {
+    background-color: #252598;
+    border-radius: 45px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    height: 100% !important;
+}
+
+.idcd-posts-items-title {
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.idcd-posts-items-title a {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.idcd-posts-items-title a:hover {
+    color: #db258c;
+}
+
+.idcd-posts-items-date {
+    color: #FFFFFF6B;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.idcd-posts-items-thumb {
+    border-radius: 45px;
+    overflow: hidden;
+}
+
+.idcd-posts-items-shadow {
+    box-shadow: 40px 40px 60px #25259838;
+}
